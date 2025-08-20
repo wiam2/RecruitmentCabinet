@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AKL_project_backend.props" />
+</Project>

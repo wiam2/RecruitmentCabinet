@@ -1,0 +1,544 @@
+[
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AtelierController",
+    "Method": "AddAtelier",
+    "RelativePath": "api/Atelier/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atelier",
+        "Type": "AKL_project_backend.model.Atelier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AtelierController",
+    "Method": "GetAllAteliers",
+    "RelativePath": "api/Atelier/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AtelierController",
+    "Method": "DeleteAtelier",
+    "RelativePath": "api/Atelier/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AtelierController",
+    "Method": "GetLastFiveAteliers",
+    "RelativePath": "api/Atelier/last-five",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AtelierController",
+    "Method": "Reserver",
+    "RelativePath": "api/Atelier/Reserver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reserveform",
+        "Type": "AKL_project_backend.DTOS.affectationIdForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CvController",
+    "Method": "GetCVById",
+    "RelativePath": "api/Cv/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CvController",
+    "Method": "CreateCV",
+    "RelativePath": "api/Cv/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cvDto",
+        "Type": "AKL_project_backend.DTOS.CVDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CvController",
+    "Method": "UpdateCV",
+    "RelativePath": "api/Cv/up/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cvDto",
+        "Type": "AKL_project_backend.DTOS.CVDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "GetCandidatsByOffreId",
+    "RelativePath": "api/offre/{offreId}/candidats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "AjouterCandidat",
+    "RelativePath": "api/offre/ajouter-candidat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postuleform",
+        "Type": "AKL_project_backend.DTOS.affectationIdForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "GetByRecruteurId",
+    "RelativePath": "api/offre/by-recruteur/{recruteurId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruteurId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AKL_project_backend.model.Offre, AKL_project_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "Create",
+    "RelativePath": "api/offre/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offre",
+        "Type": "AKL_project_backend.DTOS.offreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "Delete",
+    "RelativePath": "api/offre/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "GetAll",
+    "RelativePath": "api/offre/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "GetById",
+    "RelativePath": "api/offre/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "Update",
+    "RelativePath": "api/offre/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedOffre",
+        "Type": "AKL_project_backend.DTOS.offreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.OffreController",
+    "Method": "validerCondidat",
+    "RelativePath": "api/offre/validerCondidat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postuleform",
+        "Type": "AKL_project_backend.DTOS.affectationIdForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AKL_project_backend.Controllers.ReclamationController",
+    "Method": "CreerReclamation",
+    "RelativePath": "api/Reclamation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reclamationDTO",
+        "Type": "AKL_project_backend.DTOS.ReclamationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AKL_project_backend.DTOS.ReclamationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CondidatController",
+    "Method": "GetCandidatById",
+    "RelativePath": "Condidat/affichageCandidat/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CondidatController",
+    "Method": "GetAllInvestisseurs",
+    "RelativePath": "Condidat/affichageCandidats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CondidatController",
+    "Method": "SupprimerCandidat",
+    "RelativePath": "Condidat/DeleteCandidat/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.CondidatController",
+    "Method": "MettreAJourInvestisseur",
+    "RelativePath": "Condidat/UpdateCandidat/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CandidatDTO",
+        "Type": "AKL_project_backend.DTOS.CondidatDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "confirm-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "AKL_project_backend.DTOS.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.RecruteurController",
+    "Method": "GetCandidatById",
+    "RelativePath": "Recruteur/affichageRecruteur/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.RecruteurController",
+    "Method": "GetAllInvestisseurs",
+    "RelativePath": "Recruteur/affichageRecruteurs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.RecruteurController",
+    "Method": "SupprimerCandidat",
+    "RelativePath": "Recruteur/DeleteRecruteur/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.RecruteurController",
+    "Method": "MettreAJourRecruteur",
+    "RelativePath": "Recruteur/UpdateRecruteur/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "RecDTO",
+        "Type": "AKL_project_backend.DTOS.RecruteurDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "registerAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminDTO",
+        "Type": "AKL_project_backend.DTOS.AdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "RegisterCondidat",
+    "RelativePath": "registerCondidat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CondidatDTO",
+        "Type": "AKL_project_backend.DTOS.CondidatDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "RegisterInvestisseur",
+    "RelativePath": "registerRecruteur",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RecruteurDTO",
+        "Type": "AKL_project_backend.DTOS.RecruteurDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.AccountController",
+    "Method": "TestEmail",
+    "RelativePath": "test-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AKL_project_backend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AKL_project_backend.WeatherForecast, AKL_project_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

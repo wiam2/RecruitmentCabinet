@@ -1,0 +1,1022 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\acountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\acountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\ateliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\ateliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\condidatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\condidatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\cvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\cvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\services\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\services\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\affectationidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\affectationidform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\condidatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\condidatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\condidatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\condidatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\serviceresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\serviceresponces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\atelierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\atelierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\offrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\offrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\offreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\offreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\atelierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\atelierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\offre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\offre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\offredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\offredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\cvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\cvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\recruteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\recruteurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\condidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\condidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\recruteurrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\recruteurrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\recruteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\recruteurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\controllers\\reclamationcontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\controllers\\reclamationcontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\repository\\reclamationrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\repository\\reclamationrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\reclamationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\reclamationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\formations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\formations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\permisdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\permisdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\competencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\competencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\languedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\languedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\formationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\formationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\experienceprofdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\experienceprofdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\competences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\competences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\experienceprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\experienceprof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\langues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\langues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\permisconduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\permisconduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241127144925_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241127144925_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\dtos\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\dtos\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241110230601_mig4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241110230601_mig4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\model\\reclamation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\model\\reclamation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241109190304_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241109190304_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241109185446_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241109185446_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241127195139_for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241127195139_for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241127165633_type_per.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241127165633_type_per.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241127160810_cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241127160810_cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241127155829_permis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241127155829_permis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241202202519_val.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241202202519_val.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241202121535_conoffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241202121535_conoffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241202121003_image2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241202121003_image2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|c:\\users\\i511\\akl_project\\akl_project_backend\\akl_project_backend\\migrations\\20241203093925_atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19063BD2-5586-4AFE-9293-584603764510}|AKL_project_backend\\AKL_project_backend.csproj|solutionrelative:akl_project_backend\\migrations\\20241203093925_atelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 32,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\User.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\User.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\User.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:37:04.52Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtelierController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\AtelierController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\AtelierController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\AtelierController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\AtelierController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:47:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AtelierService.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\AtelierService.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\AtelierService.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\AtelierService.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\AtelierService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwE8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:42:56.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20241203093925_atelier.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241203093925_atelier.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241203093925_atelier.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241203093925_atelier.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241203093925_atelier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:39:26.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20241202202519_val.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202202519_val.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241202202519_val.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202202519_val.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241202202519_val.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:25:21.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "affectationIdForm.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\affectationIdForm.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\affectationIdForm.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\affectationIdForm.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\affectationIdForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:28:57.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20241202121535_conoffre.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202121535_conoffre.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241202121535_conoffre.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202121535_conoffre.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241202121535_conoffre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:15:35.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20241202121003_IMAGE2.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202121003_IMAGE2.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241202121003_IMAGE2.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241202121003_IMAGE2.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241202121003_IMAGE2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:10:04.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RecruteurController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\RecruteurController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\RecruteurController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\RecruteurController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\RecruteurController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:17:38.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RecruteurRepos.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\RecruteurRepos.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\RecruteurRepos.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\RecruteurRepos.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\RecruteurRepos.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:06:45.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OffreController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\OffreController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\OffreController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\OffreController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\OffreController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:35:32.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OffreService.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\OffreService.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\OffreService.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\OffreService.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\OffreService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:32:04.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReclamationControllercs.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\ReclamationControllercs.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\ReclamationControllercs.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\ReclamationControllercs.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\ReclamationControllercs.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:20:09.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReclamationRepos.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\ReclamationRepos.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\ReclamationRepos.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\ReclamationRepos.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\ReclamationRepos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:17:02.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20241127195139_FOR.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127195139_FOR.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241127195139_FOR.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127195139_FOR.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241127195139_FOR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:51:40.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20241127165633_type_per.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127165633_type_per.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241127165633_type_per.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127165633_type_per.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241127165633_type_per.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:56:33.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CvController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\CvController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\CvController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\CvController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\CvController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:41:32.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CVRepository.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\CVRepository.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\CVRepository.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\CVRepository.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\CVRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:09:03.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20241127160810_CV.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127160810_CV.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241127160810_CV.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127160810_CV.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241127160810_CV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:08:10.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20241127155829_permis.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127155829_permis.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241127155829_permis.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127155829_permis.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241127155829_permis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:58:30.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PermisDTOcs.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\PermisDTOcs.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\PermisDTOcs.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\PermisDTOcs.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\PermisDTOcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:57:02.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PermisConduit.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\PermisConduit.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\PermisConduit.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\PermisConduit.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\PermisConduit.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:55:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20241127144925_image.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127144925_image.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241127144925_image.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241127144925_image.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241127144925_image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:49:27.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CondidatController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\CondidatController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\CondidatController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\CondidatController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\CondidatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:57:54.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CondidatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\CondidatRepository.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\CondidatRepository.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\CondidatRepository.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\CondidatRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:57:09.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\EmailService.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\EmailService.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\EmailService.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\EmailService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:16:12.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\SmtpSettings.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:15:01.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20241110230601_MIG4.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241110230601_MIG4.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241110230601_MIG4.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241110230601_MIG4.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241110230601_MIG4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T23:06:03.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20241109190304_MIG3.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241109190304_MIG3.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241109190304_MIG3.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241109190304_MIG3.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241109190304_MIG3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:03:04.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20241109185446_MIG2.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241109185446_MIG2.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Migrations\\20241109185446_MIG2.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Migrations\\20241109185446_MIG2.cs",
+              "RelativeToolTip": "AKL_project_backend\\Migrations\\20241109185446_MIG2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:54:49.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AKL_project_backend\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:57:04.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\UserSession.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\UserSession.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\UserSession.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:53:03.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceResponces.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ServiceResponces.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\ServiceResponces.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ServiceResponces.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\ServiceResponces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:41:28.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\LoginDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:40:06.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Services\\IUserAccount.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Services\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Services\\IUserAccount.cs",
+              "RelativeToolTip": "AKL_project_backend\\Services\\IUserAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:37:02.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AcountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\AcountRepository.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Repository\\AcountRepository.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Repository\\AcountRepository.cs",
+              "RelativeToolTip": "AKL_project_backend\\Repository\\AcountRepository.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:27:57.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\AdminDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\AdminDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\AdminDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:25:43.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AtelierDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\AtelierDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\AtelierDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\AtelierDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\AtelierDTO.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:22:45.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "offreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\offreDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\offreDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\offreDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\offreDTO.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA9wDQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:21:27.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RecruteurDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\RecruteurDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\RecruteurDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\RecruteurDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\RecruteurDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:19:43.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReclamationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ReclamationDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\ReclamationDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ReclamationDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\ReclamationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:17:54.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LangueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\LangueDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\LangueDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\LangueDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\LangueDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:13:46.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FormationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\FormationDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\FormationDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\FormationDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\FormationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:13:05.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ExperienceProfDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ExperienceProfDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\ExperienceProfDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\ExperienceProfDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\ExperienceProfDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA/wBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:11:36.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CompetenceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CompetenceDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\CompetenceDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CompetenceDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\CompetenceDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:10:36.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CVDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CVDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\CVDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CVDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\CVDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:07:42.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CondidatDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CondidatDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\CondidatDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\CondidatDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\CondidatDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:06:25.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\UserDTO.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\DTOS\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\DTOS\\UserDTO.cs",
+              "RelativeToolTip": "AKL_project_backend\\DTOS\\UserDTO.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:04:46.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Competences.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Competences.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Competences.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Competences.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Competences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:01:10.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Langues.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Langues.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Langues.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Langues.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Langues.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:00:50.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ExperienceProf.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\ExperienceProf.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\ExperienceProf.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\ExperienceProf.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\ExperienceProf.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:00:31.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Formations.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Formations.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Formations.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Formations.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Formations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:00:12.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "offre.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\offre.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\offre.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\offre.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\offre.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:13:43.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Reclamation.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Reclamation.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Reclamation.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Reclamation.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Reclamation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:48:46.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "AKL_project_backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\appsettings.json",
+              "RelativeToolTip": "AKL_project_backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T19:39:38.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Program.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\Program.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\Program.cs",
+              "RelativeToolTip": "AKL_project_backend\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:39:32.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Atelier.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Atelier.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Atelier.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Atelier.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Atelier.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:39:17.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CV.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\CV.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\CV.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\CV.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\CV.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:39:03.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Condidat.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Condidat.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Condidat.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Condidat.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Condidat.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:38:47.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Recruteur.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Recruteur.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Recruteur.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Recruteur.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Recruteur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:38:25.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Admin.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\Admin.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\Admin.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:38:06.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AKL_project_backend\\model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\I511\\AKL_PROJECT\\AKL_project_backend\\AKL_project_backend\\model\\AppDbContext.cs",
+              "RelativeToolTip": "AKL_project_backend\\model\\AppDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:36:42.389Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

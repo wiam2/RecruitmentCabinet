@@ -1,0 +1,1887 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AKL_project_backend",
+    "version": "1.0"
+  },
+  "paths": {
+    "/registerRecruteur": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/registerCondidat": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/registerAdmin": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/confirm-email": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "token",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/test-email": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Atelier/add": {
+      "post": {
+        "tags": [
+          "Atelier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Atelier"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Atelier"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Atelier"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Atelier/all": {
+      "get": {
+        "tags": [
+          "Atelier"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Atelier/last-five": {
+      "get": {
+        "tags": [
+          "Atelier"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Atelier/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Atelier"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Atelier/Reserver": {
+      "post": {
+        "tags": [
+          "Atelier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Condidat/affichageCandidats": {
+      "get": {
+        "tags": [
+          "Condidat"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Condidat/affichageCandidat/{id}": {
+      "get": {
+        "tags": [
+          "Condidat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Condidat/DeleteCandidat/{id}": {
+      "delete": {
+        "tags": [
+          "Condidat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Condidat/UpdateCandidat/{id}": {
+      "put": {
+        "tags": [
+          "Condidat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CondidatDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cv/create": {
+      "post": {
+        "tags": [
+          "Cv"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cv/up/{id}": {
+      "put": {
+        "tags": [
+          "Cv"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CVDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cv/{id}": {
+      "get": {
+        "tags": [
+          "Cv"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/get": {
+      "get": {
+        "tags": [
+          "Offre"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/get/{id}": {
+      "get": {
+        "tags": [
+          "Offre"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/create": {
+      "post": {
+        "tags": [
+          "Offre"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/update/{id}": {
+      "put": {
+        "tags": [
+          "Offre"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/offreDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Offre"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/ajouter-candidat": {
+      "post": {
+        "tags": [
+          "Offre"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/validerCondidat": {
+      "post": {
+        "tags": [
+          "Offre"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/affectationIdForm"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/offre/by-recruteur/{recruteurId}": {
+      "get": {
+        "tags": [
+          "Offre"
+        ],
+        "parameters": [
+          {
+            "name": "recruteurId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Offre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Offre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Offre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/offre/{offreId}/candidats": {
+      "get": {
+        "tags": [
+          "Offre"
+        ],
+        "parameters": [
+          {
+            "name": "offreId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reclamation": {
+      "post": {
+        "tags": [
+          "Reclamation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReclamationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReclamationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReclamationDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReclamationDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReclamationDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReclamationDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Recruteur/affichageRecruteurs": {
+      "get": {
+        "tags": [
+          "Recruteur"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Recruteur/affichageRecruteur/{id}": {
+      "get": {
+        "tags": [
+          "Recruteur"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Recruteur/DeleteRecruteur/{id}": {
+      "delete": {
+        "tags": [
+          "Recruteur"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Recruteur/UpdateRecruteur/{id}": {
+      "put": {
+        "tags": [
+          "Recruteur"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecruteurDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdminDTO": {
+        "required": [
+          "civilite",
+          "confirmPassword",
+          "dateDeNaissance",
+          "email",
+          "nom",
+          "password",
+          "pays",
+          "poste",
+          "prenom",
+          "telephone",
+          "ville"
+        ],
+        "type": "object",
+        "properties": {
+          "nom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "prenom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "civilite": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateDeNaissance": {
+            "type": "string",
+            "format": "date"
+          },
+          "poste": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pays": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ville": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telephone": {
+            "minLength": 1,
+            "type": "string",
+            "format": "tel"
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "confirmPassword": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Atelier": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "organisateur": {
+            "type": "string",
+            "nullable": true
+          },
+          "lieuOrganisation": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOrganisation": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "theme": {
+            "type": "string",
+            "nullable": true
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "deroulement_atelier": {
+            "type": "string",
+            "nullable": true
+          },
+          "idReservateur": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CVDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "condidatId": {
+            "type": "string",
+            "nullable": true
+          },
+          "competences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CompetenceDTO"
+            },
+            "nullable": true
+          },
+          "experienceProfs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExperienceProfDTO"
+            },
+            "nullable": true
+          },
+          "langues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LangueDTO"
+            },
+            "nullable": true
+          },
+          "formations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FormationDTO"
+            },
+            "nullable": true
+          },
+          "permisConduits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PermisDTOcs"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompetenceDTO": {
+        "required": [
+          "nomComp"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomComp": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CondidatDto": {
+        "required": [
+          "civilite",
+          "confirmPassword",
+          "dateDeNaissance",
+          "email",
+          "nom",
+          "password",
+          "pays",
+          "poste",
+          "prenom",
+          "telephone",
+          "ville"
+        ],
+        "type": "object",
+        "properties": {
+          "nom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "prenom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "civilite": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateDeNaissance": {
+            "type": "string",
+            "format": "date"
+          },
+          "poste": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pays": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ville": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telephone": {
+            "minLength": 1,
+            "type": "string",
+            "format": "tel"
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "confirmPassword": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "cvpdf": {
+            "type": "string",
+            "nullable": true
+          },
+          "cvId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cv": {
+            "$ref": "#/components/schemas/CVDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExperienceProfDTO": {
+        "required": [
+          "dateDebut",
+          "entrepriseAccueil",
+          "intitulePoste"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "entrepriseAccueil": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "intitulePoste": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateDebut": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateFin": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "description": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FormationDTO": {
+        "required": [
+          "etablissement"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "etablissement": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "diplome": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "annee": {
+            "type": "string",
+            "nullable": true
+          },
+          "specialite": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LangueDTO": {
+        "required": [
+          "nomLangue"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomLangue": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "niveauMaitrise": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDTO": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Offre": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "entreprise": {
+            "type": "string",
+            "nullable": true
+          },
+          "postePropose": {
+            "type": "string",
+            "nullable": true
+          },
+          "titrePoste": {
+            "type": "string",
+            "nullable": true
+          },
+          "competencesRequises": {
+            "type": "string",
+            "nullable": true
+          },
+          "secteur": {
+            "type": "string",
+            "nullable": true
+          },
+          "niveauDemande": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeContrat": {
+            "type": "string",
+            "nullable": true
+          },
+          "salairePropose": {
+            "type": "number",
+            "format": "double"
+          },
+          "pays": {
+            "type": "string",
+            "nullable": true
+          },
+          "ville": {
+            "type": "string",
+            "nullable": true
+          },
+          "datePublication": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dateExpiration": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "recruteurid": {
+            "type": "string",
+            "nullable": true
+          },
+          "recruteur": {
+            "$ref": "#/components/schemas/Recruteur"
+          },
+          "condidatIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "condidatIdsvalide": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PermisDTOcs": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReclamationDTO": {
+        "required": [
+          "email",
+          "message",
+          "nomPersonne",
+          "sujet"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomPersonne": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "sujet": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "message": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Recruteur": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailConfirmed": {
+            "type": "boolean"
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nom": {
+            "type": "string",
+            "nullable": true
+          },
+          "prenom": {
+            "type": "string",
+            "nullable": true
+          },
+          "civilite": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateDeNaissance": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "poste": {
+            "type": "string",
+            "nullable": true
+          },
+          "pays": {
+            "type": "string",
+            "nullable": true
+          },
+          "ville": {
+            "type": "string",
+            "nullable": true
+          },
+          "telephone": {
+            "type": "string",
+            "nullable": true
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomEntreprise": {
+            "type": "string",
+            "nullable": true
+          },
+          "raisonSocial": {
+            "type": "string",
+            "nullable": true
+          },
+          "succursal": {
+            "type": "string",
+            "nullable": true
+          },
+          "secteurActivite": {
+            "type": "string",
+            "nullable": true
+          },
+          "adresse": {
+            "type": "string",
+            "nullable": true
+          },
+          "fax": {
+            "type": "string",
+            "nullable": true
+          },
+          "commune": {
+            "type": "string",
+            "nullable": true
+          },
+          "tailleEnEffectif": {
+            "type": "string",
+            "nullable": true
+          },
+          "statutJuridique": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeCnss": {
+            "type": "string",
+            "nullable": true
+          },
+          "numRegistre": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "dateCreation": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RecruteurDTO": {
+        "required": [
+          "civilite",
+          "confirmPassword",
+          "dateDeNaissance",
+          "email",
+          "nom",
+          "nomEntreprise",
+          "password",
+          "pays",
+          "poste",
+          "prenom",
+          "raisonSocial",
+          "secteurActivite",
+          "statutJuridique",
+          "telephone",
+          "ville"
+        ],
+        "type": "object",
+        "properties": {
+          "nom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "prenom": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "civilite": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateDeNaissance": {
+            "type": "string",
+            "format": "date"
+          },
+          "poste": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pays": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ville": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telephone": {
+            "minLength": 1,
+            "type": "string",
+            "format": "tel"
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "confirmPassword": {
+            "minLength": 1,
+            "type": "string",
+            "format": "password"
+          },
+          "nomEntreprise": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "raisonSocial": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "succursal": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "secteurActivite": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "adresse": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "fax": {
+            "type": "string",
+            "format": "tel",
+            "nullable": true
+          },
+          "commune": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "tailleEnEffectif": {
+            "minimum": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "statutJuridique": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "typeCnss": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "numRegistre": {
+            "minimum": 0,
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "dateCreation": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "offres": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/offreDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "affectationIdForm": {
+        "type": "object",
+        "properties": {
+          "condidatid": {
+            "type": "string",
+            "nullable": true
+          },
+          "offreId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "offreDTO": {
+        "required": [
+          "datePublication",
+          "entreprise",
+          "postePropose",
+          "titrePoste"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "entreprise": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "postePropose": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "titrePoste": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "competencesRequises": {
+            "maxLength": 200,
+            "type": "string",
+            "nullable": true
+          },
+          "secteur": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "niveauDemande": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "typeContrat": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "salairePropose": {
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
+          },
+          "pays": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "ville": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "datePublication": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateExpiration": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "description": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "condidatIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "condidatIdsvalide": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "recruteurId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}
